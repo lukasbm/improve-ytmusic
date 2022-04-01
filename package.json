@@ -1,0 +1,20 @@
+{
+  "name": "improve-ytmusic",
+  "version": "0.0.1",
+  "description": "this firefox extensionremoves oversized margins and other annoying things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasbm/improve-ytmusic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasbm/improve-ytmusic/issues"
+  },
+  "homepage": "https://github.com/lukasbm/improve-ytmusic#readme"
+}

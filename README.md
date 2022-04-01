@@ -1,2 +1,3 @@
-# fix-ytmusic-layout
-this firefox extensionremoves oversized margins and other annoying things
+# improve-ytmusic
+
+This firefox extensionremoves oversized margins and other annoying things.
