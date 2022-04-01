@@ -4,7 +4,11 @@
   "description": "this firefox extensionremoves oversized margins and other annoying things",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:firefox": "web-ext run --source-dir ./src/",
+    "lint": "web-ext lint",
+    "sign": "web-ext sign",
+    "build:firefox": "web-ext build",
+    "build:chromium": "web-ext build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/lukasbm/improve-ytmusic/issues"
   },
-  "homepage": "https://github.com/lukasbm/improve-ytmusic#readme"
+  "homepage": "https://github.com/lukasbm/improve-ytmusic#readme",
+  "devDependencies": {
+    "web-ext": "^6.8.0",
+    "webextension-polyfill": "^0.9.0"
+  }
 }

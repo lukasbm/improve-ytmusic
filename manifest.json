@@ -7,7 +7,10 @@
   "content_scripts": [
     {
       "matches": ["*://music.youtube.com/*"],
-      "js": ["index.js"]
+      "js": ["browser-polyfill.js", "src/content.js"]
     }
-  ]
+  ],
+  "background": {
+    "scripts": ["browser-polyfill.js", "src/background.js"]
+  }
 }
