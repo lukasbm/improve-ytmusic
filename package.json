@@ -4,7 +4,7 @@
   "description": "this firefox extensionremoves oversized margins and other annoying things",
   "main": "index.js",
   "scripts": {
-    "icons": "cd icons && for i in 16 32 64 128 256 512; do inkscape icon.svg --export-type=png --export-filename=icon-$i.png ; done",
+    "icons": "cd icons && for i in 16 32 48 64 128 256 512; do inkscape icon.svg --export-type=png --export-filename=icon-$i.png ; done",
     "start": "web-ext run",
     "lint": "web-ext lint",
     "sign": "web-ext sign",
