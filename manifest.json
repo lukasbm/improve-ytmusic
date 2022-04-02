@@ -13,6 +13,7 @@
     "256": "icons/icon-256.png",
     "512": "icons/icon-512.png"
   },
+  "permissions": ["*://music.youtube.com/*", "*://youtu.be/*", "*://*.youtube.com/*"],
   "page_action": {
     "browser_style": true,
     "default_icon": {
