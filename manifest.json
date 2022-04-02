@@ -13,7 +13,6 @@
     "256": "icons/icon-256.png",
     "512": "icons/icon-512.png"
   },
-  "permissions": ["activeTab", "tabs"],
   "page_action": {
     "browser_style": true,
     "default_icon": {
