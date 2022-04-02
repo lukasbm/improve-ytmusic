@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/lukasbm/improve-ytmusic#readme",
   "devDependencies": {
-    "web-ext": "^6.8.0",
-    "webextension-polyfill": "^0.9.0"
+    "web-ext": "^6.8.0"
   }
 }
