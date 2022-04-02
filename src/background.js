@@ -1,8 +1,11 @@
-// TODO for cross browser: show pageAction manually, chromium does not support show_matches
-
-browser.pageAction.onClicked.addListener((tab) => {
-  browser.pageAction.hide(tab.id);
-  browser.tabs.update({ url: getYoutubeLink(tab.url) });
+browser.pageAction.onClicked.addListener((tab, { modifiers, button }) => {
+  const youtubeLink = getYoutubeLink(tab.url);
+  
+  if (modifiers.length > 0 || button == 1) {
+    browser.tabs.create({ url: youtubeLink });
+  } else {
+    browser.tabs.update({ url: youtubeLink });
+  }
 });
 
 function getYoutubeLink(url) {
