@@ -16,10 +16,10 @@
   "content_scripts": [
     {
       "matches": ["*://music.youtube.com/*"],
-      "js": ["browser-polyfill.js", "src/content.js"]
+      "js": ["src/content.js"]
     }
   ],
   "background": {
-    "scripts": ["browser-polyfill.js", "src/background.js"]
+    "scripts": ["src/background.js"]
   }
 }
