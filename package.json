@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "icons": "cd icons && for i in 16 32 48 64 128 256 512; do inkscape icon.svg --export-type=png --export-filename=icon-$i.png ; done",
-    "start": "web-ext run",
+    "start": "web-ext run --start-url https://music.youtube.com",
     "lint": "web-ext lint",
     "sign": "web-ext sign",
     "build": "web-ext build"
