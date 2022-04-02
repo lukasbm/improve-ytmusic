@@ -13,6 +13,21 @@
     "256": "icons/icon-256.png",
     "512": "icons/icon-512.png"
   },
+  "permissions": ["activeTab", "tabs"],
+  "page_action": {
+    "browser_style": true,
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "64": "icons/icon-64.png",
+      "128": "icons/icon-128.png",
+      "256": "icons/icon-256.png",
+      "512": "icons/icon-512.png"
+    },
+    "default_title": "Open in Youtube",
+    "show_matches": ["*://music.youtube.com/*"]
+  },
   "content_scripts": [
     {
       "matches": ["*://music.youtube.com/*"],
