@@ -4,6 +4,7 @@
   "name": "improve-ytmusic",
   "version": "0.0.1",
   "homepage_url": "https://github.com/lukasbm/improve-ytmusic",
+  
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
@@ -13,7 +14,13 @@
     "256": "icons/icon-256.png",
     "512": "icons/icon-512.png"
   },
-  "permissions": ["*://music.youtube.com/*", "*://youtu.be/*", "*://*.youtube.com/*"],
+
+  "permissions": [
+    "*://music.youtube.com/*",
+    "*://youtu.be/*",
+    "*://*.youtube.com/*"
+  ],
+
   "page_action": {
     "browser_style": true,
     "default_icon": {
@@ -28,12 +35,14 @@
     "default_title": "Open in Youtube",
     "show_matches": ["*://music.youtube.com/*"]
   },
+
   "content_scripts": [
     {
       "matches": ["*://music.youtube.com/*"],
       "js": ["src/content.js"]
     }
   ],
+
   "background": {
     "scripts": ["src/background.js"]
   }
