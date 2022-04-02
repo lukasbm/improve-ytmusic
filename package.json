@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "icons": "cd icons && for i in 16 32 48 64 128 256 512; do inkscape icon.svg --export-type=png --export-filename=icon-$i.png ; done",
-    "start": "web-ext run --start-url https://music.youtube.com",
+    "start": "web-ext run --start-url https://music.youtube.com --start-url https://music.youtube.com/watch?v=lYBUbBu4W08 --start-url https://music.youtube.com/watch?v=IHNzOHi8sJs",
     "lint": "web-ext lint",
     "sign": "web-ext sign",
     "build": "web-ext build"
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/lukasbm/improve-ytmusic.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "lukasbm",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lukasbm/improve-ytmusic/issues"
