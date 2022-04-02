@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "icons": "cd icons && for i in 16 32 64 128 256 512; do inkscape icon.svg --export-type=png --export-filename=icon-$i.png ; done",
-    "start:firefox": "web-ext run --source-dir ./src/",
+    "start": "web-ext run",
     "lint": "web-ext lint",
     "sign": "web-ext sign",
-    "build:firefox": "web-ext build",
-    "build:chromium": "web-ext build"
+    "build": "web-ext build"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,5 @@
-var browser = require("webextension-polyfill");
+import browser from "webextension-polyfill";
 
-document.body.style.border = "5px solid red";
+console.log("hello from content script");
+
+document.body.style.margin = "5px";
