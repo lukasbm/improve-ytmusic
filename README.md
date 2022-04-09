@@ -11,3 +11,7 @@ To enable cross platform a few things have to be done:
 - install the "webextension-polyfill" npm package to allow chrome to use the Promise based browser API from firefox.
 
 Also look here: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension
+
+
+## Roadmap
+- Support PageAction, when using minified Youtube player (i)

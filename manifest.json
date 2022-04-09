@@ -16,9 +16,10 @@
   },
 
   "permissions": [
-    "*://music.youtube.com/*",
-    "*://youtu.be/*",
-    "*://*.youtube.com/*"
+    "https://music.youtube.com/*",
+    "https://www.youtube.com/*",
+    "activeTab",
+    "tabs"
   ],
 
   "page_action": {
@@ -32,13 +33,12 @@
       "256": "icons/icon-256.png",
       "512": "icons/icon-512.png"
     },
-    "default_title": "Open in Youtube",
-    "show_matches": ["*://music.youtube.com/*"]
+    "default_title": "Open in Youtube"
   },
 
   "content_scripts": [
     {
-      "matches": ["*://music.youtube.com/*"],
+      "matches": ["https://music.youtube.com/*"],
       "js": ["src/content.js"]
     }
   ],
